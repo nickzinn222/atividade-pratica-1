@@ -1,12 +1,20 @@
-.diamante {
+body{
     background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.diamante {
+    background: linear-gradient(135deg, #000000, #61c7e6);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: 30px;
     font-size: 20px;
-
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
 }
+
 
 .dimond {
     font-size: 80px;
@@ -22,7 +30,7 @@
 .div-list-ul {
     display: flex;
     gap: 15px;
-    color: #6bddff;
+    color: #040607;
 }
 
 .div-list-li {
@@ -33,7 +41,7 @@
 li,
 a {
     text-decoration: none;
-    color: #6bddff;
+    color: #000000;
     display: flex;
     gap: 10px;
 }
@@ -74,7 +82,7 @@ span {
 /*section 02*/
 
 .section-02 {
-    background-color: #000000 ;
+    background-color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,13 +108,13 @@ span {
     gap: 15px;
 }
 
-.span-02{
+.span-02 {
     color: #6bddff;
 }
 
 /*section 03*/
 
-.section-03{
+.section-03 {
     background-image: url(img/aaaaaaa.jpeg);
     background-attachment: fixed;
     background-position: center top;
@@ -135,54 +143,87 @@ span {
     padding: 20px;
 }
 
-/*section 04*/
 
 .section-04 {
-    background-color: #181818;         
-    padding: 45px;                   
-    display: flex;                 
-    justify-content: center;         
-    align-items: center;   
-    gap: 30px;          
-  }
-  
-  
-  .div-section-04 {
-    width: 300px;                
-    height: 400px;               
-    background-color: rgb(0, 0, 0);       
-    padding: 20px;                   
+    background-color: #181818;
+    padding: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.div-section-04 {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
     border: solid 2px #ffffff;
     gap: 30px;
-  
-  }
 
-  .div-text {
+}
+
+.div-text {
+
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    text-align: center;
-    color: #f1e6e6;
     text-transform: uppercase;
-  }
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0 0 8px #61c7e6;
+    
+}
 
-  .div-diamante {
+.div-diamante {
     background-image: url(img/cn-11134207-7r98o-ln2u6psgdz2xb1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-  }
+}
 
-  .div-user {
+.div-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
     color: #ffffff;
     text-align: center;
+    text-shadow: 0 0 8px #61c7e6;
+}
+
+
+footer{
+    background-color: #000;
+    padding: 50px;
+    color: #6bddff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    flex-direction: column;
+    border-top: 2px solid #00ffff;
+
+
   }
   
-  .img-social {
-    margin-top: 30px;
-    display: inline-block;
+  .fa-x-twitter {
+    color: white;                         
   }
-
   
+  .fa-instagram {
+    color: #E1306C;
+  }
+  
+  .fa-github {
+    color: #0969DA;
+  }
+  .icon {
+    display: flex;
+    gap:5px;
 
+  }
