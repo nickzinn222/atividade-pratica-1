@@ -11,14 +11,16 @@ body{
     justify-content: space-evenly;
     padding: 30px;
     font-size: 20px;
-    border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    
 }
 
 
 .dimond {
     font-size: 80px;
     color: #6bddff;
+    
+
 }
 
 .h1 {
@@ -37,17 +39,28 @@ body{
     list-style: none;
 }
 
-.div-list ul,
-li,
-a {
+.div-list ul, a {
     text-decoration: none;
     color: #000000;
     display: flex;
+    flex-direction: row;
     gap: 10px;
 }
 
-/*section 01*/
+.div-list ul li a:hover {
+  text-decoration: underline;
+}
 
+.jewelry-section {
+    background-image: url(img/Gemini_Generated_Image_keelzvkeelzvkeel.png);
+    background-size: cover;
+    padding: 200px;
+    height: 130px;
+    background-position: center;
+    border-top: 2px solid #00ffff;
+
+  }
+  
 .section-01 {
     background-color: #181818;
     display: flex;
@@ -196,34 +209,116 @@ span {
 }
 
 
-footer{
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  footer {
     background-color: #000;
-    padding: 50px;
-    color: #6bddff;
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 220px;
+    margin-right: 20px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #00bcd4; /* Azul ciano */
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #00bcd4; /* Azul ciano */
+  }
+  
+  .social-media {
+    display: flex;
     justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .social-icon:hover {
+    color: #00bcd4; /* Azul ciano */
+  }
+  
+  .footer-bottom {
     text-align: center;
-    font-size: 20px;
-    flex-direction: column;
-    border-top: 2px solid #00ffff;
-
-
+    margin-top: 20px;
+    font-size: 14px;
   }
   
-  .fa-x-twitter {
-    color: white;                         
+  .footer-bottom p {
+    color: #bbb;
   }
   
-  .fa-instagram {
-    color: #E1306C;
+  .footer-bottom p a {
+    color: #00bcd4; /* Azul ciano */
+    text-decoration: none;
   }
   
-  .fa-github {
-    color: #0969DA;
-  }
-  .icon {
+  footer form {
     display: flex;
-    gap:5px;
-
+    flex-direction: column;
   }
+  
+  footer input[type="email"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #00bcd4;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  footer button {
+    padding: 8px;
+    background-color: #00bcd4;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  footer button:hover {
+    background-color: #0097a7;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-section {
+      margin-bottom: 20px;
+    }
+  }
+  

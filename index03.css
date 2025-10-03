@@ -1,12 +1,18 @@
+/* Reset básico */
+body, ul, li, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Arial', sans-serif;
+}
 
+/* Corpo da página */
 body {
     background-color: #000000;
     color: #fff;
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
+/* Header */
 header {
     text-align: center;
     padding: 50px 20px;
@@ -21,12 +27,69 @@ header h1 {
     text-shadow: 2px 2px 10px #faffff;
 }
 
-header p {
-    font-size: 18px;
-    margin-top: 10px;
-    color: #ffffff;
+/* Navegação */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #111;
+    padding: 15px 0;
 }
 
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    color: #61c7e6;
+    transform: scale(1.05);
+}
+
+/* Coleção de joias */
+.collection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 50px 20px;
+}
+
+.jewel-card {
+    background-color: #111;
+    border: 1px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.jewel-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #61c7e6;
+}
+
+.jewel-card img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.jewel-card h2 {
+    margin: 15px 0 5px;
+    font-size: 22px;
+    color: #00ffff;
+}
+
+.jewel-card p {
+    margin: 0 0 15px;
+    font-size: 16px;
+    color: #ccc;
+}
+
+/* Botões */
 .btn {
     background: #61c7e6;
     border: none;
@@ -44,52 +107,6 @@ header p {
     color: #00ffff;
     transform: scale(1.05);
 }
-
-section {
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-section h2 {
-    color: #00ffff;
-    font-size: 30px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-section p {
-    font-size: 18px;
-    line-height: 1.6;
-    text-align: justify;
-}
-
-.galeria .imagens {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.imagem-box {
-    width: 200px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #000000;
-    font-size: 18px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-
-.imagem-box:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-    transform: scale(1.05);
-    
-}
-
 
 body, ul, li {
     margin: 0;
@@ -204,3 +221,4 @@ body, ul, li {
     }
   }
   
+
