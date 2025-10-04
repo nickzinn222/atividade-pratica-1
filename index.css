@@ -5,7 +5,7 @@ body{
 }
 
 .diamante {
-    background: linear-gradient(135deg, #000000, #61c7e6);
+    background: linear-gradient(135deg, #000000, #152264);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -18,7 +18,7 @@ body{
 
 .dimond {
     font-size: 80px;
-    color: #6bddff;
+    color: #F0F0F2;
     
 
 }
@@ -41,7 +41,7 @@ body{
 
 .div-list ul, a {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -52,13 +52,11 @@ body{
 }
 
 .jewelry-section {
-    background-image: url(img/Gemini_Generated_Image_keelzvkeelzvkeel.png);
+    background-image: url(img/wwww.jpg);
     background-size: cover;
     padding: 200px;
     height: 130px;
     background-position: center;
-    border-top: 2px solid #00ffff;
-
   }
   
 .section-01 {
@@ -88,7 +86,7 @@ body{
 
 span {
     font-size: 40px;
-    color: #6bddff;
+    color: #0c0b9e;
     text-transform: uppercase;
 }
 
@@ -115,14 +113,14 @@ span {
 }
 
 .div-icons {
-    color: #6bddff;
+    color: #0c0b9e;
     font-size: 40px;
     display: flex;
     gap: 15px;
 }
 
 .span-02 {
-    color: #6bddff;
+    color: #0c0b9e;
 }
 
 /*section 03*/
@@ -140,7 +138,7 @@ span {
 }
 
 .section-03 button {
-    color: #6bddff;
+    color: #ffffff;
     background-color: #000000;
     padding: 10px;
     width: 130px;
@@ -186,12 +184,12 @@ span {
     text-transform: uppercase;
     color: #ffffff;
     text-align: center;
-    text-shadow: 0 0 8px #61c7e6;
+    text-shadow: 0 0 8px #0c0b9e;
     
 }
 
 .div-diamante {
-    background-image: url(img/cn-11134207-7r98o-ln2u6psgdz2xb1.jpg);
+    background-image: url(img/coloque\ essa\ corrente\ em\ uma\ vitrine\ de\ loja\ em\ exposicao.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -205,7 +203,7 @@ span {
     text-transform: uppercase;
     color: #ffffff;
     text-align: center;
-    text-shadow: 0 0 8px #61c7e6;
+    text-shadow: 0 0 8px #0c0b9e;
 }
 
 
@@ -220,6 +218,8 @@ body, ul, li {
     color: #fff;
     padding: 20px;
     font-family: Arial, sans-serif;
+    border-top: 2px solid #0c0b9e;
+
   }
   
   .footer-container {
@@ -237,7 +237,7 @@ body, ul, li {
   .footer-section h3 {
     font-size: 18px;
     margin-bottom: 10px;
-    color: #00bcd4; /* Azul ciano */
+    color: #0c0b9e;
   }
   
   .footer-section ul li {
@@ -251,7 +251,7 @@ body, ul, li {
   }
   
   .footer-section ul li a:hover {
-    color: #00bcd4; /* Azul ciano */
+    color: #0c0b9e;
   }
   
   .social-media {
@@ -268,7 +268,7 @@ body, ul, li {
   }
   
   .social-icon:hover {
-    color: #00bcd4; /* Azul ciano */
+    color: #0c0b9e;
   }
   
   .footer-bottom {
@@ -282,7 +282,7 @@ body, ul, li {
   }
   
   .footer-bottom p a {
-    color: #00bcd4; /* Azul ciano */
+    color: #0c0b9e;
     text-decoration: none;
   }
   
@@ -294,21 +294,21 @@ body, ul, li {
   footer input[type="email"] {
     padding: 8px;
     margin-bottom: 10px;
-    border: 1px solid #00bcd4;
+    border: 1px solid #0c0b9e;
     background-color: #fff;
     color: #000;
   }
   
   footer button {
     padding: 8px;
-    background-color: #00bcd4;
+    background-color: #0c0b9e;
     border: none;
     color: #fff;
     cursor: pointer;
   }
   
   footer button:hover {
-    background-color: #0097a7;
+    background-color: #0c0b9e;
   }
   
   @media (max-width: 768px) {

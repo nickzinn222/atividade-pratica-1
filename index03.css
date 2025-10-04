@@ -1,224 +1,229 @@
 /* Reset básico */
-body, ul, li, h1, h2, p {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-family: 'Arial', sans-serif;
+body,
+ul,
+li,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Arial', sans-serif;
 }
 
 /* Corpo da página */
 body {
-    background-color: #000000;
-    color: #fff;
+  background-color: #000000;
+  color: #fff;
 }
 
 /* Header */
 header {
-    text-align: center;
-    padding: 50px 20px;
-    background: linear-gradient(135deg, #000, #61c7e6);
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #000, #0c0b9e);
 }
 
 header h1 {
-    font-size: 50px;
-    margin: 0;
-    letter-spacing: 2px;
-    color: #ffffff;
-    text-shadow: 2px 2px 10px #faffff;
+  font-size: 50px;
+  margin: 0;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-shadow: 2px 2px 10px #faffff;
 }
 
 /* Navegação */
 nav {
-    display: flex;
-    justify-content: center;
-    background-color: #111;
-    padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  background-color: #111;
+  padding: 15px 0;
 }
 
 nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 20px;
-    font-weight: bold;
-    transition: color 0.3s, transform 0.3s;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+  transition: color 0.3s, transform 0.3s;
 }
 
 nav a:hover {
-    color: #61c7e6;
-    transform: scale(1.05);
+  color: #0c0b9e;
+  transform: scale(1.05);
 }
 
 /* Coleção de joias */
 .collection {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-    padding: 50px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 50px 20px;
 }
 
 .jewel-card {
-    background-color: #111;
-    border: 1px solid #333;
-    border-radius: 10px;
-    overflow: hidden;
-    text-align: center;
-    transition: transform 0.3s, box-shadow 0.3s;
-    cursor: pointer;
+  background-color: #111;
+  border: 1px solid #333;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
 }
 
 .jewel-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 20px #61c7e6;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #0c0b9e;
 }
 
 .jewel-card img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
 
 .jewel-card h2 {
-    margin: 15px 0 5px;
-    font-size: 22px;
-    color: #00ffff;
+  margin: 15px 0 5px;
+  font-size: 22px;
+  color: #0c0b9e;
 }
 
 .jewel-card p {
-    margin: 0 0 15px;
-    font-size: 16px;
-    color: #ccc;
+  margin: 0 0 15px;
+  font-size: 16px;
+  color: #ccc;
 }
 
 /* Botões */
 .btn {
-    background: #61c7e6;
-    border: none;
-    color: #000;
-    padding: 12px 25px;
-    margin: 15px 10px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: all 0.3s ease;
+  background: #0c0b9e;
+  border: none;
+  color: #000;
+  padding: 12px 25px;
+  margin: 15px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
 }
 
 .btn:hover {
-    background: #ffffff;
-    color: #00ffff;
-    transform: scale(1.05);
+  background: #ffffff;
+  color: #0c0b9e;
+  transform: scale(1.05);
 }
 
-body, ul, li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  footer {
-    background-color: #000;
-    color: #fff;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-  }
-  
-  .footer-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  .footer-section {
-    flex: 1;
-    min-width: 220px;
-    margin-right: 20px;
-  }
-  
-  .footer-section h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #00bcd4; /* Azul ciano */
-  }
-  
-  .footer-section ul li {
-    margin-bottom: 8px;
-  }
-  
-  .footer-section ul li a {
-    text-decoration: none;
-    color: #fff;
-    transition: color 0.3s;
-  }
-  
-  .footer-section ul li a:hover {
-    color: #00bcd4; /* Azul ciano */
-  }
-  
-  .social-media {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .social-icon {
-    color: #fff;
-    margin: 0 10px;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  
-  .social-icon:hover {
-    color: #00bcd4; /* Azul ciano */
-  }
-  
-  .footer-bottom {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 14px;
-  }
-  
-  .footer-bottom p {
-    color: #bbb;
-  }
-  
-  .footer-bottom p a {
-    color: #00bcd4; /* Azul ciano */
-    text-decoration: none;
-  }
-  
-  footer form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  footer input[type="email"] {
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #00bcd4;
-    background-color: #fff;
-    color: #000;
-  }
-  
-  footer button {
-    padding: 8px;
-    background-color: #00bcd4;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  footer button:hover {
-    background-color: #0097a7;
-  }
-  
-  @media (max-width: 768px) {
-    .footer-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .footer-section {
-      margin-bottom: 20px;
-    }
-  }
-  
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 220px;
+  margin-right: 20px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #0c0b9e;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #0c0b9e;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icon {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.social-icon:hover {
+  color: #0c0b9e;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  color: #bbb;
+}
+
+.footer-bottom p a {
+  color: #0c0b9e;
+  text-decoration: none;
+}
+
+footer form {
+  display: flex;
+  flex-direction: column;
+}
+
+footer input[type="email"] {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #0c0b9e;
+  background-color: #fff;
+  color: #000;
+}
+
+footer button {
+  padding: 8px;
+  background-color: #0c0b9e;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+footer button:hover {
+  background-color: #0c0b9e;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    margin-bottom: 20px;
+  }
+}
