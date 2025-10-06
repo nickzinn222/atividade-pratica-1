@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: 'Cinzel', serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+
+  .lux-header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #000000, #152264);
+    border-bottom: 1px solid #000000;
+  }
+  
+  .lux-header h1 {
+    font-size: 36px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  
+  .lux-header p {
+    color: #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .lux-header nav a {
+    color: #ccc;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .lux-header nav a:hover,
+  .lux-header nav a.ativo {
+    color: #ffffff;
+  }
+  
+  /* ===== SEÇÃO DE CONTATO ===== */
+  .lux-contato {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #000, #08080a);
+  }
+  
+  .lux-contato h2 {
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .lux-contato p {
+    color: #ccc;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  
+  .lux-form {
+    max-width: 600px;
+    margin: 0 auto 50px;
+    background-color: rgba(20, 20, 20, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #ffffff;
+  }
+  
+  .lux-campo {
+    text-align: left;
+    margin-bottom: 25px;
+  }
+  
+  .lux-campo label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .lux-campo input,
+  .lux-campo textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #222;
+    color: #fff;
+    font-size: 15px;
+  }
+  
+  .lux-campo input:focus,
+  .lux-campo textarea:focus {
+    outline: 2px solid #fffffe;
+  }
+  
+  
+  .lux-botao {
+    background-color: #ffffff;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 30px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .lux-botao:hover {
+    background-color: #fff;
+  }
+  
+
+  .lux-contatos-extras {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .lux-info {
+    background: #000000;
+    padding: 20px 30px;
+    border-radius: 12px;
+    text-align: center;
+    width: 220px;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+  }
+  
+  .lux-info:hover {
+    background: #222;
+  }
+  
+  .lux-info i {
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .lux-info p {
+    color: #ccc;
+    font-size: 16px;
+  }
+  
+  /* ===== MAPA ===== */
+  .lux-mapa {
+    max-width: 800px;
+    margin: 0 auto 60px;
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  /* ===== RODAPÉ ===== */
+  .lux-footer {
+    background-color: #111;
+    text-align: center;
+    padding: 20px;
+    color: #aaa;
+    font-size: 14px;
+    border-top: 1px solid #333;
+  }
+  
