@@ -11,6 +11,10 @@ body {
     padding: 40px 20px;
     background: linear-gradient(135deg, #000000, #152264);
     border-bottom: 1px solid #000000;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
   }
   
   .lux-header h1 {

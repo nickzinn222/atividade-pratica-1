@@ -12,6 +12,11 @@ body{
     padding: 30px;
     font-size: 20px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    flex-wrap: wrap;
     
 }
 
@@ -19,6 +24,8 @@ body{
 .dimond {
     font-size: 80px;
     color: #F0F0F2;
+    flex-wrap: wrap;
+
     
 
 }
@@ -27,16 +34,22 @@ body{
     color: #ffffff;
     text-transform: uppercase;
     font-size: 20px;
+    flex-wrap: wrap;
+
 }
 
 .div-list-ul {
     display: flex;
     gap: 15px;
     color: #040607;
+    flex-wrap: wrap;
+
 }
 
 .div-list-li {
     list-style: none;
+    flex-wrap: wrap;
+
 }
 
 .div-list ul, a {
@@ -45,10 +58,14 @@ body{
     display: flex;
     flex-direction: row;
     gap: 10px;
+    flex-wrap: wrap;
+
 }
 
 .div-list ul li a:hover {
   text-decoration: underline;
+  flex-wrap: wrap;
+
 }
 
 .jewelry-section {
@@ -57,40 +74,47 @@ body{
     padding: 200px;
     height: 190px;
     background-position: center;
+    flex-wrap: wrap;
+
   }
-  
+ html {
+    font-size: 16px; /* Base para usar rem */
+}
+
 .section-01 {
     background-color: #181818;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 20px;
-    padding: 100px;
+    gap: 1.25rem; /* 20px */
+    padding: 6.25rem; /* 100px */
+    flex-wrap: wrap;
 }
 
 .section-01 img {
-    width: 300px;
-    height: 350px;
-
-    border-radius: 5px;
+    width: 18.75rem; /* 300px */
+    height: 21.875rem; /* 350px */
+    border-radius: 0.3125rem; /* 5px */
+    object-fit: cover;
 }
 
 .section-01 p {
     color: #ffffff;
-    font-size: 30px;
+    font-size: 1.875rem; /* 30px */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 30px;
+    margin-left: 1.875rem; /* 30px */
     font-weight: 200;
-    width: 500px;
+    width: 31.25rem; /* 500px */
+    text-align: justify;
 }
 
 span {
-    font-size: 40px;
+    font-size: 2.5rem; /* 40px */
     color: #0c0b9e;
     text-transform: uppercase;
 }
 
-/*section 02*/
+/* section 02 */
 
 .section-02 {
     background-color: #000000;
@@ -98,30 +122,109 @@ span {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 80px;
-    padding: 100px;
+    gap: 5rem; /* 80px */
+    padding: 6.25rem; /* 100px */
+    flex-wrap: wrap;
 }
 
 .div-p {
     color: #ffffff;
-    font-size: 30px;
+    font-size: 1.875rem; /* 30px */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 30px;
+    margin-left: 1.875rem; /* 30px */
     font-weight: 200;
     text-align: justify;
-    width: 500px;
+    width: 31.25rem; /* 500px */
 }
 
 .div-icons {
     color: #0c0b9e;
-    font-size: 40px;
+    font-size: 2.5rem; /* 40px */
     display: flex;
-    gap: 15px;
+    gap: 0.9375rem; /* 15px */
+    flex-wrap: wrap;
 }
 
 .span-02 {
     color: #0c0b9e;
 }
+html {
+  font-size: 16px; /* base para rem */
+}
+
+.section-01 {
+  background-color: #181818;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem; /* espaçamento entre os elementos */
+  padding: 4rem 2rem; /* espaçamento interno */
+  text-align: center;
+}
+
+.section-01 img {
+  width: 20rem; /* 320px */
+  height: auto;
+  max-width: 100%;
+  border-radius: 0.5rem; /* 8px */
+  object-fit: cover;
+}
+
+.section-01 p {
+  color: #ffffff;
+  font-size: 1.8rem; /* 28.8px */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 200;
+  max-width: 32rem; /* 512px */
+  line-height: 1.4;
+  text-align: justify;
+}
+
+.section-01 span {
+  display: block;
+  font-size: 2.5rem; /* 40px */
+  color: #0c0b9e;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+}
+
+/* section 02 */
+
+.section-02 {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem; /* espaçamento vertical */
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.div-p {
+  color: #ffffff;
+  font-size: 1.8rem; /* 28.8px */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 200;
+  max-width: 32rem;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.div-icons {
+  color: #0c0b9e;
+  font-size: 2.5rem; /* 40px */
+  display: flex;
+  gap: 1rem; /* 16px */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.span-02 {
+  color: #0c0b9e;
+}
+
 
 /*section 03*/
 
@@ -135,6 +238,8 @@ span {
     align-items: center;
     justify-content: center;
     padding: 200px;
+    flex-wrap: wrap;
+
 }
 
 .section-03 button {
@@ -146,12 +251,16 @@ span {
     cursor: pointer;
     transition: 0.9s;
     border-radius: 6px;
+    flex-wrap: wrap;
+
 }
 
 .section-03 button:hover {
     background-color: #000000;
     box-shadow: 4px 4px 10px;
     padding: 20px;
+    flex-wrap: wrap;
+
 }
 
 
@@ -162,6 +271,8 @@ span {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    flex-wrap: wrap;
+
 }
 
 
@@ -172,6 +283,8 @@ span {
     padding: 20px;
     border: solid 2px #ffffff;
     gap: 30px;
+    flex-wrap: wrap;
+
 
 }
 
@@ -185,6 +298,8 @@ span {
     color: #ffffff;
     text-align: center;
     text-shadow: 0 0 8px #0c0b9e;
+    flex-wrap: wrap;
+
     
 }
 
@@ -193,6 +308,8 @@ span {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    flex-wrap: wrap;
+
 }
 
 .div-user {
@@ -204,6 +321,8 @@ span {
     color: #ffffff;
     text-align: center;
     text-shadow: 0 0 8px #0c0b9e;
+    flex-wrap: wrap;
+
 }
 
 
@@ -211,6 +330,8 @@ body, ul, li {
     margin: 0;
     padding: 0;
     list-style: none;
+    flex-wrap: wrap;
+
   }
   
   footer {
@@ -219,6 +340,8 @@ body, ul, li {
     padding: 20px;
     font-family: Arial, sans-serif;
     border-top: 2px solid #0c0b9e;
+    flex-wrap: wrap;
+
 
   }
   
@@ -226,38 +349,52 @@ body, ul, li {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    flex-wrap: wrap;
+
   }
   
   .footer-section {
     flex: 1;
     min-width: 220px;
     margin-right: 20px;
+    flex-wrap: wrap;
+
   }
   
   .footer-section h3 {
     font-size: 18px;
     margin-bottom: 10px;
     color: #0c0b9e;
+    flex-wrap: wrap;
+
   }
   
   .footer-section ul li {
     margin-bottom: 8px;
+    flex-wrap: wrap;
+
   }
   
   .footer-section ul li a {
     text-decoration: none;
     color: #fff;
     transition: color 0.3s;
+    flex-wrap: wrap;
+
   }
   
   .footer-section ul li a:hover {
     color: #0c0b9e;
+    flex-wrap: wrap;
+
   }
   
   .social-media {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    flex-wrap: wrap;
+
   }
   
   .social-icon {
@@ -265,30 +402,42 @@ body, ul, li {
     margin: 0 10px;
     text-decoration: none;
     font-size: 18px;
+    flex-wrap: wrap;
+
   }
   
   .social-icon:hover {
     color: #0c0b9e;
+    flex-wrap: wrap;
+
   }
   
   .footer-bottom {
     text-align: center;
     margin-top: 20px;
     font-size: 14px;
+    flex-wrap: wrap;
+
   }
   
   .footer-bottom p {
     color: #bbb;
+    flex-wrap: wrap;
+
   }
   
   .footer-bottom p a {
     color: #0c0b9e;
     text-decoration: none;
+    flex-wrap: wrap;
+
   }
   
   footer form {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+
   }
   
   footer input[type="email"] {
@@ -297,6 +446,8 @@ body, ul, li {
     border: 1px solid #0c0b9e;
     background-color: #fff;
     color: #000;
+    flex-wrap: wrap;
+
   }
   
   footer button {
@@ -305,20 +456,28 @@ body, ul, li {
     border: none;
     color: #fff;
     cursor: pointer;
+    flex-wrap: wrap;
+
   }
   
   footer button:hover {
     background-color: #0c0b9e;
+    flex-wrap: wrap;
+
   }
   
   @media (max-width: 768px) {
     .footer-container {
       flex-direction: column;
       align-items: center;
+      flex-wrap: wrap;
+
     }
   
     .footer-section {
       margin-bottom: 20px;
+      flex-wrap: wrap;
+
     }
   }
   
